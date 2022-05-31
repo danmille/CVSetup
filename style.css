@@ -8,6 +8,12 @@
   font-family: "Roberto", sans-serif;
 }
 
+main {
+  max-width: 800px;
+  border-top: 33px;
+  background-color: red;
+}
+
 h1,
 h2,
 h3,
@@ -18,10 +24,23 @@ h6 {
 }
 body {
   margin: 0;
+  text-align: left;
+  background-color: aquamarine;
 }
+article {
+  height: 50;
+  max-width: 100vh;
+  background-color: blue;
+}
+
+section {
+  height: 25vh;
+  width: 55vh;
+  background-color: blueviolet;
+}
+
 .header {
   padding: 48px 16px;
-  text-align: center;
   background-color: #eee;
 }
 .nav-link {
