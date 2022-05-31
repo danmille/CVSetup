@@ -1,3 +1,55 @@
-* {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
+}
+
+* {
+  font-family: "Roberto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+body {
+  margin: 0;
+}
+.header {
+  padding: 48px 16px;
+  text-align: center;
+  background-color: #eee;
+}
+.nav-link {
+  padding: 4px 8px;
+  color: black;
+}
+.nav-link:hover {
+  color: black;
+  background-color: lightgray;
+}
+.nav-link:active {
+  color: white;
+  background-color: gray;
+}
+.nav-link + .nav-link {
+  margin-left: 16px;
+}
+.main > * + * {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.main > * + * {
+  margin-top: 48px;
+}
+.main > * {
+  border-top: 2px solid;
+}
+.main > *:first-child {
+  border-top: none;
 }
