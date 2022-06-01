@@ -9,9 +9,9 @@
 }
 
 main {
-  max-width: 800px;
-  border-top: 33px;
-  background-color: red;
+  _max-width: 800px;
+  _border-top: 12px;
+  _background-color: rgb(246, 131, 131);
 }
 
 h1,
@@ -25,7 +25,7 @@ h6 {
 body {
   margin: 0;
   text-align: left;
-  background-color: aquamarine;
+  _background-color: aquamarine;
 }
 article {
   height: 50;
@@ -36,7 +36,7 @@ article {
 section {
   height: 25vh;
   width: 55vh;
-  background-color: blueviolet;
+  _background-color: blueviolet;
 }
 
 .header {
