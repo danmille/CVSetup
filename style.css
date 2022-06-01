@@ -5,13 +5,15 @@
 }
 
 * {
-  font-family: "Roberto", sans-serif;
+  font-family: "Roberto", monospace;
 }
 
-main {
-  _max-width: 800px;
-  _border-top: 12px;
+.main {
+  max-width: auto;
   _background-color: rgb(246, 131, 131);
+  padding: 12px;
+  margin: 0 auto;
+  display: flex;
 }
 
 h1,
@@ -24,23 +26,21 @@ h6 {
 }
 body {
   margin: 0;
-  text-align: left;
+  _text-align: left;
   _background-color: aquamarine;
 }
 article {
-  height: 50;
   max-width: 100vh;
-  background-color: blue;
+  _background-color: blue;
 }
-
 section {
-  height: 25vh;
-  width: 55vh;
+  _width: 55vh;
   _background-color: blueviolet;
 }
 
 .header {
   padding: 48px 16px;
+  text-align: center;
   background-color: #eee;
 }
 .nav-link {
