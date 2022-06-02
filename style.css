@@ -13,7 +13,7 @@
   _background-color: rgb(246, 131, 131);
   padding: 12px;
   margin: 0 auto;
-  display: flex;
+  _display: flex;
 }
 
 h1,
@@ -29,6 +29,7 @@ body {
   _text-align: left;
   _background-color: aquamarine;
 }
+
 article {
   max-width: 100vh;
   _background-color: blue;
