@@ -5,7 +5,8 @@
 }
 
 * {
-  font-family: "Roberto", monospace;
+  font-family: "Roberto" sans-serif;
+  _font-family: "Roberto", monospace;
 }
 
 .main {
