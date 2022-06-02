@@ -10,6 +10,7 @@
 
 .main {
   max-width: 60ch;
+  _color: blueviolet;
   _background-color: rgb(246, 131, 131);
   padding: 1rem;
   margin: 0 auto;
@@ -34,9 +35,14 @@ body {
   _background-color: aquamarine;
 }
 
-article {
+*::selection {
+  background-color: plum;
+  _color: rgb(192, 100, 141);
+}
+
+_article {
   max-width: 100vh;
-  background-color: blue;
+  _background-color: blue;
 }
 _section {
   _width: 55vh;
@@ -48,6 +54,11 @@ _section {
   text-align: center;
   background-color: #eee;
 }
+
+.profession::after {
+  content: "👷‍♂️🍦";
+}
+
 .nav-link {
   padding: 4px 8px;
   color: black;
@@ -61,13 +72,13 @@ _section {
   background-color: gray;
 }
 .nav-link + .nav-link {
-  margin-left: 16px;
+  margin: 20px;
 }
 .main > article {
   max-width: 800px;
   margin: 0 auto;
   padding: 16px;
-  color: red;
+  _color: red;
 }
 .main > * + * {
   margin-top: 48px;
