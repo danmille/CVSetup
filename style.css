@@ -9,11 +9,15 @@
 }
 
 .main {
-  max-width: auto;
+  max-width: 60ch;
   _background-color: rgb(246, 131, 131);
-  padding: 12px;
+  padding: 1rem;
   margin: 0 auto;
-  _display: flex;
+}
+
+.h2block {
+  position: relative;
+  right: 1rem;
 }
 
 h1,
@@ -32,9 +36,9 @@ body {
 
 article {
   max-width: 100vh;
-  _background-color: blue;
+  background-color: blue;
 }
-section {
+_section {
   _width: 55vh;
   _background-color: blueviolet;
 }
@@ -59,10 +63,11 @@ section {
 .nav-link + .nav-link {
   margin-left: 16px;
 }
-.main > * + * {
+.main > article {
   max-width: 800px;
   margin: 0 auto;
   padding: 16px;
+  color: red;
 }
 .main > * + * {
   margin-top: 48px;
