@@ -15,7 +15,7 @@
   _background-color: rgb(246, 131, 131);
   padding: 1rem;
   margin: 0 auto;
-  border: 13px solid blue;
+  _border: 13px solid blue;
 }
 
 .h2block {
