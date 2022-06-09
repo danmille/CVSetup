@@ -9,6 +9,10 @@
   _font-family: "Roberto", monospace;
 }
 
+.pic1 {
+  margin-top: 33px;
+}
+
 .main {
   max-width: 60ch;
   _color: blueviolet;
